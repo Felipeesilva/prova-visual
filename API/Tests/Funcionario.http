@@ -1,0 +1,13 @@
+### Cadastrar um novo produto
+POST https://localhost:5001/api/funcionario/create
+Content-Type: application/json
+
+{
+    "Nome" : "Felipe",
+    "Idade" : 23
+}
+
+### Listar todos os produtos
+GET https://localhost:5001/api/funcionario/list
+
+

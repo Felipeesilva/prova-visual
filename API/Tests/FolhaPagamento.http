@@ -1,0 +1,19 @@
+### Cadastrar um novo produto
+POST https://localhost:5001/api/folhaPagamento/create
+Content-Type: application/json
+
+{
+    "HorasTrabalhadas" : 8,
+    "ValorHora" : 10,
+    "Ano" : 2022,
+    "Mes" : 4,
+    "FuncionarioId": 1
+
+}
+
+### Listar todos os produtos
+GET https://localhost:5001/api/folhaPagamento/list
+
+### Deletar um produto pelo funcionarioId
+DELETE https://localhost:5001/api/folhaPagamento/delete/1
+
