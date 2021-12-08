@@ -7,7 +7,7 @@ Content-Type: application/json
     "Idade" : 23
 }
 
-### Listar todos os produtos
+### Listar todos os funcionarios
 GET https://localhost:5001/api/funcionario/list
 
 

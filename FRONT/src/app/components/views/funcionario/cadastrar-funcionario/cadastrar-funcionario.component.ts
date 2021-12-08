@@ -24,6 +24,7 @@ export class CadastrarFuncionarioComponent implements OnInit {
     }
     this.service.create(funcionario).subscribe((funcionario) => {
         console.log(funcionario);
+        this.router.navigate([""]);
     });
 
   }

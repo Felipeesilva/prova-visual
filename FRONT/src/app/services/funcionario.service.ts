@@ -14,6 +14,10 @@ export class FuncionarioService {
   //Cadastrar
   create(funcionario: Funcionario): Observable<Funcionario> {
     return this.http.post<Funcionario>(`${this.baseUrl}/create`, funcionario);
+ }
 
-}
+ //Listar
+ list( ): Observable<Funcionario[]> {
+  return this.http.get<Funcionario[]>(`${this.baseUrl}/list`);
+  }
 }
